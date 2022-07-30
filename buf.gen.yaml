@@ -5,22 +5,5 @@ managed:
     default: github.com/summer-fruits/juice/go
 
 plugins:
-  # ruby
-  - remote: buf.build/protocolbuffers/plugins/ruby:v21.1.0-1
-    out: lib
-  - remote: buf.build/summer-fruits/plugins/twirp-ruby:v1.9.0-1
-    out: lib
-
-  # dart
   - remote: buf.build/protocolbuffers/plugins/dart:v20.0.0-1
     out: dart
-  - name: twirp_dart
-    out: dart
-
-  # go
-  - remote: buf.build/protocolbuffers/plugins/go:v1.28.0-1
-    out: go
-    opt: paths=source_relative
-  - name: twirp
-    out: go
-    opt: paths=source_relative
