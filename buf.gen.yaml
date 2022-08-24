@@ -7,3 +7,5 @@ managed:
 plugins:
   - remote: buf.build/protocolbuffers/plugins/dart:v20.0.0-1
     out: dart
+  - remote: buf.build/summer-fruits/plugins/tart:v1
+    out: dart
