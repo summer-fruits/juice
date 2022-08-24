@@ -2,10 +2,10 @@ version: v1
 managed:
   enabled: true
   go_package_prefix:
-    default: github.com/summer-fruits/juice/go
+    default: "."
 
 plugins:
   - remote: buf.build/protocolbuffers/plugins/dart:v20.0.0-1
     out: dart
-  - remote: buf.build/summer-fruits/plugins/tart:v1
+  - name: tart
     out: dart
